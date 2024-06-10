@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-sharepoint",
+  "version": "1.0.0",
+  "description": "A server that integrated with react frontend and database as sharepoint",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Jose",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "node-sp-auth": "^3.0.8",
+    "nodemon": "^3.1.3"
+  }
+}
